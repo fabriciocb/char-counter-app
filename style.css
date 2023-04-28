@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Set default styles for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+/* Colors */
+:root{
+    --spring-green: #00ff9c;
+    --slate-gray: #7B8898;
+    --athens-gray: #F4F6F8;
+}
+
+/* Set default styles for paragraphs */
+p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+body{
+    background-color: rgba(70, 80, 98, 1);
+    background-image: linear-gradient(175.9deg, rgba(70, 80, 98, 1) 7%, rgba(90, 104, 127, 1) 93.8%);
+}
+
+h1{
+    color: var(--spring-green);
+}
+
+.main-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    height: 100vh;
+}
+
+.main-container .preheading{
+    color: var(--slate-gray);
+    font-weight: 200;
+}
+
+.settings{
+    text-align: right;
+    margin-bottom: 2px;
+}
+
+.settings label{
+    color: var(--spring-green);
+}
+
+/* Text area section */
+
+#text-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-area textarea{
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-top-width: 0px;
+    outline: none;
+    flex: 1;
+    height: 50vh;
+}
+
+/* Counter Area Styles */
+
+.counter-area{
+    background-color: var(--athens-gray);
+    color: var(--slate-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter-area p{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.counter-area span{
+    font-size: 3rem;
+}

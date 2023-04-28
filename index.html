@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Character Counter</title>
+</head>
+<body>
+    <div class="main-container">
+        <span class="preheading">Free and Simple</span>
+        <h1>Character Counter</h1>    
+        <div class="settings">
+            <label for="count-spaces">
+                <input type="checkbox" id="count-spaces" checked>
+                Count spaces
+            </label>
+        </div>
+        <section id="text-area">
+            <textarea id="user-input" placeholder="Start typing or copy your content here"></textarea>
+        </section>
+        <div class="counter-area">
+            <p>Characters: </p>
+            <span id="cc-count">0</span>
+        </div>   
+    </div>
+    <script src="./countCharacter.js"></script>
+</body>
+</html>
